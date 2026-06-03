@@ -1,4 +1,4 @@
-package dayOne;
+package day1;
 
 public class dataTypes {
     public static void main(String[] args)
