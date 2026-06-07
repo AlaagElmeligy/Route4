@@ -1,4 +1,6 @@
 package day3;
+import day4.Rectangle;
+
 import java.util.Scanner;
 public class EmployeeGrossPay {
     static void main(String[] args){
@@ -19,5 +21,10 @@ public class EmployeeGrossPay {
         }
         double salary = empWorkingHours * hourRate;
         System.out.println("Your weekly gross salary is " + salary + "$");
+
+
+        Rectangle rectangle = new Rectangle();
+        double x = rectangle.calculateArea();
     }
+
 }
